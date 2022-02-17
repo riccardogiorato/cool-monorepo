@@ -1,10 +1,18 @@
-# Turborepo Next.js + Storybook Design System starter
+# Cool Monorepo
 
-Turborepo starter Template with: Storybook Design System + Next.js app
+A monorepo Template with Next.js, Storybook Design System, Turborepo, and much more
 
-- Design System (Storybook.js) deployed on Vercel: https://template-monorepo-nextjs-storybook-turborepo-design-system.vercel.app/
+![cover for turborepo nextjs storybook template](public/cover.jpg)
 
-- Website deployed on Vercel: https://template-monorepo-nextjs-storybook-turborepo-site.vercel.app/
+**Monorepo Template with:**
+
+1. Storybook as a Design System to showcase and test your Components
+2. Next.js to make the best website ever.
+3. Turborepo to make everything fast!
+
+- Design System (Storybook.js) deployed on Vercel: https://cool-monorepo-design-system.vercel.app/
+
+- Website deployed on Vercel: https://cool-monorepo-site.vercel.app/
 
 ## What's inside?
 
