@@ -2,14 +2,18 @@
 
 Turborepo starter Template with: Storybook Design System + Next.js app
 
+- Design System (Storybook.js) deployed on Vercel: https://template-monorepo-nextjs-storybook-turborepo-design-system.vercel.app/
+
+- Website deployed on Vercel: https://template-monorepo-nextjs-storybook-turborepo-site.vercel.app/
+
 ## What's inside?
 
 This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `site`: A placeholder documentation site powered by [Next.js](https://nextjs.org)
-- `design-system`: core React components
+- `site`: A site powered by [Next.js](https://nextjs.org)
+- `design-system`: Core React components and Storybook to provide a full design system
 - `utils`: shared React utilities
 - `tsconfig`: shared `tsconfig.json`s used throughout the monorepo
 - `eslint-preset`: ESLint preset
@@ -26,29 +30,8 @@ This turborepo has some additional tools already setup for you:
 
 ## Using this example
 
-We do not have a starter yet in `create-turbo` for this quite yet. If you want to use this in the interim, you run the following command:
+Click on Github to start from this template to create your own project!
 
-```sh
-npx degit vercel/turborepo/examples/design-system design-system
-cd design-system
-yarn install
-git init . && git add . && git commit -m "Init"
-```
+## Deploying this Monorepo on Vercel
 
-### Publishing packages
-
-#### NPM
-
-If you want to publish package to the public NPM registry and make them publicly available, this is already setup for you.
-
-To publish packages to a private NPM organization scope, **remove** the following from each of the `package.json`'s
-
-```diff
-- "publishConfig": {
--  "access": "public"
-- },
-```
-
-#### GitHub Package Registry
-
-See [Working with the npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-publishconfig-in-the-packagejson-file)
+TODO run scopes and linking
