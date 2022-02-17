@@ -8,7 +8,7 @@ export default function Docs() {
   return (
     <div>
       <h1>Documentation</h1>
-      <Button>Click me</Button>
+      <Button label={"Hello"}>Click me</Button>
     </div>
   );
 }
