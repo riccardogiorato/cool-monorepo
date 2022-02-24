@@ -11,7 +11,7 @@
     "dev": "start-storybook -p 6006",
     "lint": "TIMING=1 eslint src --fix",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "build": "build-storybook -o dist"
+    "build-storybook": "build-storybook -o dist"
   },
   "devDependencies": {
     "@babel/core": "^7.17.4",
