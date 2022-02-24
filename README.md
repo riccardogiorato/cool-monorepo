@@ -38,20 +38,26 @@ This turborepo has some additional tools already setup for you:
 
 ## Using this example
 
-Click on Github to start from this template to create your own project!
+Click on [this Github link](https://github.com/riccardogiorato/cool-monorepo/generate) to start from this template to create your own project!
 
 ## Deploying this Monorepo on Vercel
 
-TODO run scopes and linking
+### Design System Config
 
-### Design System Build command
+- Build Command:
 
 ```
 yarn design-system-vercel
 ```
 
-### Site Build command
+- Output Directory: packages/design-system/dist
+
+### Site Config
+
+- Build Command:
 
 ```
 yarn site-vercel
 ```
+
+- Output Directory: packages/site/dist
