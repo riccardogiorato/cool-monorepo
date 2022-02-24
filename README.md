@@ -43,3 +43,15 @@ Click on Github to start from this template to create your own project!
 ## Deploying this Monorepo on Vercel
 
 TODO run scopes and linking
+
+### Design System Build command
+
+```
+yarn design-system-vercel
+```
+
+### Site Build command
+
+```
+yarn site-vercel
+```
