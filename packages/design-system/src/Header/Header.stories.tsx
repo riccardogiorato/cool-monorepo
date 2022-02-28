@@ -9,3 +9,5 @@ export default {
 } as Meta;
 
 export const Default: React.VFC = () => <Header />;
+
+export const Loading: React.VFC = () => <Header loading />;

@@ -1,9 +1,11 @@
 import { Button } from "../Button";
 import "./header.css";
 
-interface HeaderProps {}
+interface HeaderProps {
+  loading?: boolean;
+}
 
-export const Header = ({}: HeaderProps) => (
+export const Header = ({ loading }: HeaderProps) => (
   <header>
     <div className="wrapper">
       <div>
@@ -28,12 +30,14 @@ export const Header = ({}: HeaderProps) => (
             />
           </g>
         </svg>
-        <h1>Acme</h1>
+        <h1>Cool Monorepo</h1>
       </div>
-      <div>
-        <Button size="small" label="Log in" />
-        <Button primary size="small" label="Sign up" />
-      </div>
+      {!loading && (
+        <div>
+          <Button size="small" label="Play with" />
+          <Button primary size="small" label="Buttons" />
+        </div>
+      )}
     </div>
   </header>
 );
