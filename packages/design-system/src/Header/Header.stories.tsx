@@ -8,6 +8,6 @@ export default {
   component: Header,
 } as Meta;
 
-export const Default: React.VFC = () => <Header />;
+export const Default: React.VFC = () => <Header  />;
 
 export const Loading: React.VFC = () => <Header loading />;
